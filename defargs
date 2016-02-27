@@ -1,0 +1,5 @@
+obj=function(v){//c,w,e
+ var m=arguments,c=m[1],w=m[2],e=m[3];
+ switch(m.length){case 1:c=true;case 2:w=true;case 3:e=true;};
+ return CreateObject({configurable:c,enumerable:e,value:v,writable:w});
+};
