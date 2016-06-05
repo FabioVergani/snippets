@@ -1,0 +1,9 @@
+//(function(){
+ const m=[0,1,2,3],l=m.length;
+ let e,i=0;
+ while(i<l){
+	e=m[i];
+	console.log(i+''+e)
+	i++;
+ };
+//})();
